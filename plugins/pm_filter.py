@@ -414,8 +414,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "pages":
         await query.answer()
-    elif query.data == "start":
-        buttons
         
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
